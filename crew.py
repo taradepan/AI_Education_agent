@@ -10,5 +10,5 @@ crew = Crew(
 )
 
 
-result=crew.kickoff(inputs={'topic':'I want to learn about AI Agents. I know how to use openai api.'})
-print(result)
+# result=crew.kickoff(inputs={'topic':'ai agents', 'time': '3hrs', 'current_level': 'intermediate', 'others': 'i have previous experience with openai api'})
+# print(result)

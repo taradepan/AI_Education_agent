@@ -12,7 +12,7 @@ tool=[search_tool, yt_tool]
 
 researcher=Agent(
     role='Researcher',
-    goal='Collect detailed information based on the given topic from the internet.',
+    goal='Collect detailed information based on the given topic and other requirements from the internet.',
     verbose=True,
     memory=True,
     backstory=(
@@ -25,7 +25,7 @@ researcher=Agent(
 
 
 writer=Agent(
-    role='Blog Writer',
+    role='Writer',
     goal='Write a list of suitable courses based on the users input, refer the collected data from the internt. provide the linkes to those resourses.',
     verbose=True,
     memory=True,
